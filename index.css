@@ -261,6 +261,13 @@
   margin: 0 auto 0 0;
 }
 
+.u-section-1 .u-image-9 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url('images/25789_1.jpg');
+  background-position: 50% 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .u-section-1 .u-container-layout-16 {
   padding: 30px;
 }
@@ -317,6 +324,10 @@
   .u-section-1 .u-image-8 {
     background-size: cover, cover;
   }
+  .u-section-1 .u-image-9 {
+    background-size: cover, cover;
+  }
+
 }
 
 @media (max-width: 991px) {
