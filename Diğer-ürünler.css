@@ -80,7 +80,6 @@
 
   .u-section-1 .u-list-1 {
     margin-bottom: 38px;
-    height: auto;
   }
 
   .u-section-1 .u-repeater-1 {
@@ -92,7 +91,6 @@
 @media (max-width: 767px) {
   .u-section-1 .u-list-1 {
     width: 540px;
-    height: auto;
   }
 
   .u-section-1 .u-image-1 {
@@ -114,14 +112,14 @@
     margin-right: initial;
     margin-left: initial;
     width: auto;
-    height: auto;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 1911px;
+  min-height: 1913px;
 }
 
 .u-section-2 .u-text-1 {
-  width: 296px;
+  text-transform: uppercase;
+  width: 374px;
   margin: 47px auto 0;
 }
 
