@@ -46109,7 +46109,7 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -150px 29px 60px auto;
+  margin: -152px 13px 60px auto;
 }
 
 .u-header .u-hamburger-link-1 {
@@ -46134,7 +46134,7 @@ a.u-link.u-text-hover-color-var:hover {
 
   .u-header .u-menu-1 {
     margin-top: 20px;
-    margin-right: 29px;
+    margin-right: 13px;
   }
 }
 @media (max-width: 991px) {
@@ -46154,6 +46154,7 @@ a.u-link.u-text-hover-color-var:hover {
 
   .u-header .u-menu-1 {
     margin-top: 20px;
+    margin-bottom: 60px;
   }
 }
 @media (max-width: 575px) {
@@ -46168,7 +46169,6 @@ a.u-link.u-text-hover-color-var:hover {
   .u-header .u-menu-1 {
     margin-top: -197px;
     margin-right: 0;
-    margin-bottom: 60px;
   }
 
   .u-header .u-hamburger-link-1 {
