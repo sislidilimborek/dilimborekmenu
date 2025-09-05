@@ -1,410 +1,176 @@
-.u-section-1 .u-sheet-1 {
-  min-height: 1235px;
-}
+/* ===== Base & grid ===== */
+.u-section-1 .u-sheet-1 { min-height: 0; }
+.u-section-1 .u-text-1 { margin: 24px auto 8px; width: auto; text-align: center; }
 
-.u-section-1 .u-text-1 {
-  font-family: Montserrat, sans-serif;
-  width: 555px;
-  margin: 39px auto 0;
-}
-
-.u-section-1 .u-list-1 {
-  width: 1127px;
-  grid-template-rows: repeat(3, auto);
-  margin: 48px auto 0;
-}
-
+.u-section-1 .u-list-1 { width: 100%; max-width: 1140px; margin: 24px auto 0; }
 .u-section-1 .u-repeater-1 {
-  grid-template-columns: repeat(2, calc(50% - 6px));
-  min-height: 897px;
-  --gap: 12px;
-  grid-auto-columns: calc(50% - 6px);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  grid-auto-columns: 1fr;
 }
 
-.u-section-1 .u-image-1 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url('images/2115_2.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  margin-top: 0;
-  margin-bottom: 0;
+/* ===== Card base ===== */
+.u-section-1 .u-list-item,
+.u-section-1 .u-repeater-item {
+  display: block;
+  overflow: hidden;
+  border-radius: 10px;
+  background: transparent;
 }
 
-.u-section-1 .u-container-layout-1 {
-  padding: 0;
-}
-
-.u-section-1 .u-group-1 {
-  width: 279px;
-  min-height: 321px;
-  height: auto;
-  margin: 0 auto 0 0;
-}
-
-.u-section-1 .u-container-layout-2 {
-  padding: 30px;
-}
-
-.u-section-1 .u-text-2 {
-  font-weight: 700;
-  margin: 20px auto 0;
-}
-
-.u-section-1 .u-text-3 {
-  margin: 20px 0 0;
-}
-
-.u-section-1 .u-text-4 {
-  margin: 21px auto 0;
-}
-
-.u-section-1 .u-text-5 {
-  font-weight: 700;
-  font-size: 1.875rem;
-  margin: 20px auto 0;
-}
-
-.u-section-1 .u-image-2 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url('images/61c1dad44e3fe10950300b23.jpg.webp');
-  background-position: 50% 50%, 50% 50%;
-  background-size: cover, cover;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.u-section-1 .u-container-layout-3 {
-  padding: 0;
-}
-
-.u-section-1 .u-group-2 {
-  width: 279px;
-  min-height: 321px;
-  height: auto;
-  margin: 0 auto 0 0;
-}
-
-.u-section-1 .u-container-layout-4 {
-  padding: 30px;
-}
-
-.u-section-1 .u-text-6 {
-  font-weight: 700;
-  margin: 20px auto 0;
-}
-
-.u-section-1 .u-text-7 {
-  margin: 20px 0 0;
-}
-
-.u-section-1 .u-text-8 {
-  margin: 21px auto 0;
-}
-
-.u-section-1 .u-text-9 {
-  font-weight: 700;
-  font-size: 1.875rem;
-  margin: 20px auto 0;
-}
-
-.u-section-1 .u-image-3 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url('images/acma-cesitleri-sevinc-pastanesi.jpeg');
-  background-position: 50% 50%;
-  background-size: cover;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.u-section-1 .u-container-layout-5 {
-  padding: 0;
-}
-
-.u-section-1 .u-group-3 {
-  width: 279px;
-  min-height: 321px;
-  height: auto;
-  margin: 0 auto 0 0;
-}
-
-.u-section-1 .u-container-layout-6 {
-  padding: 30px;
-}
-
-.u-section-1 .u-text-10 {
-  font-weight: 700;
-  margin: 20px auto 0;
-}
-
-.u-section-1 .u-text-11 {
-  margin: 20px 0 0;
-}
-
-.u-section-1 .u-text-12 {
-  margin: 21px auto 0;
-}
-
-.u-section-1 .u-text-13 {
-  font-weight: 700;
-  font-size: 1.875rem;
-  margin: 20px auto 0;
-}
-
-.u-section-1 .u-image-4 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url('images/bayatlamayan-poaaa.webp');
-  background-position: 50% 50%;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.u-section-1 .u-container-layout-7 {
-  padding: 0;
-}
-
-.u-section-1 .u-group-4 {
-  width: 279px;
-  min-height: 321px;
-  height: auto;
-  margin: 0 auto 0 0;
-}
-
-.u-section-1 .u-container-layout-8 {
-  padding: 30px;
-}
-
-.u-section-1 .u-text-14 {
-  font-weight: 700;
-  margin: 20px auto 0;
-}
-
-.u-section-1 .u-text-15 {
-  margin: 20px 0 0;
-}
-
-.u-section-1 .u-text-16 {
-  margin: 21px auto 0;
-}
-
-.u-section-1 .u-text-17 {
-  font-weight: 700;
-  font-size: 1.875rem;
-  margin: 20px auto 0;
-}
-
-.u-section-1 .u-image-5 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url('images/1625929118-simit-tarifi.jpg');
-  background-position: 50% 50%;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.u-section-1 .u-container-layout-9 {
-  padding: 0;
-}
-
-.u-section-1 .u-group-5 {
-  width: 279px;
-  min-height: 321px;
-  height: auto;
-  margin: 0 auto 0 0;
-}
-
-.u-section-1 .u-container-layout-10 {
-  padding: 30px;
-}
-
-.u-section-1 .u-text-18 {
-  font-weight: 700;
-  margin: 20px auto 0;
-}
-
-.u-section-1 .u-text-19 {
-  margin: 20px 0 0;
-}
-
-.u-section-1 .u-text-20 {
-  margin: 21px auto 0;
-}
-
-.u-section-1 .u-text-21 {
-  font-weight: 700;
-  font-size: 1.875rem;
-  margin: 20px auto 0;
-}
-
-.u-section-1 .u-image-6 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url('images/47701.jpg');
-  background-position: 50% 50%;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.u-section-1 .u-container-layout-11 {
-  padding: 0;
-}
-
+/* Kill overlays; make caption a solid black footer */
+.u-section-1 .u-group-1,
+.u-section-1 .u-group-2,
+.u-section-1 .u-group-3,
+.u-section-1 .u-group-4,
+.u-section-1 .u-group-5,
 .u-section-1 .u-group-6 {
-  width: 279px;
-  min-height: 321px;
-  height: auto;
-  margin: 0 auto 0 0;
+  position: static !important;
+  width: 100% !important;
+  min-height: auto !important;
+  margin: 0 !important;
+  background: #000 !important;    /* black caption */
+  color: #fff !important;
+  opacity: 1 !important;
+  border-radius: 0 0 10px 10px;
+  box-shadow: none !important;
 }
 
-.u-section-1 .u-container-layout-12 {
-  padding: 30px;
-}
+/* Caption padding */
+.u-section-1 .u-container-layout-2,
+.u-section-1 .u-container-layout-4,
+.u-section-1 .u-container-layout-6,
+.u-section-1 .u-container-layout-8,
+.u-section-1 .u-container-layout-10,
+.u-section-1 .u-container-layout-12 { padding: 14px 16px !important; }
 
+/* Titles */
+.u-section-1 .u-text-2,
+.u-section-1 .u-text-6,
+.u-section-1 .u-text-10,
+.u-section-1 .u-text-14,
+.u-section-1 .u-text-18,
 .u-section-1 .u-text-22 {
+  margin: 0 0 6px !important;
   font-weight: 700;
-  margin: 20px auto 0;
+  line-height: 1.25;
+  text-align: center;
+  color: #fff !important;
 }
 
-.u-section-1 .u-text-23 {
-  margin: 20px 0 0;
-}
-
+/* Sub-lines (gray info rows) */
+.u-section-1 .u-text-3,
+.u-section-1 .u-text-4,
+.u-section-1 .u-text-7,
+.u-section-1 .u-text-8,
+.u-section-1 .u-text-11,
+.u-section-1 .u-text-12,
+.u-section-1 .u-text-15,
+.u-section-1 .u-text-16,
+.u-section-1 .u-text-19,
+.u-section-1 .u-text-20,
+.u-section-1 .u-text-23,
 .u-section-1 .u-text-24 {
-  margin: 21px auto 0;
+  margin: 6px 0 0 !important;
+  text-align: center;
+  color: #bdbdbd !important;
+  font-size: 0.95rem;
 }
 
+/* Prices */
+.u-section-1 .u-text-5,
+.u-section-1 .u-text-9,
+.u-section-1 .u-text-13,
+.u-section-1 .u-text-17,
+.u-section-1 .u-text-21,
 .u-section-1 .u-text-25 {
-  font-weight: 700;
-  font-size: 1.875rem;
-  margin: 20px auto 0;
+  margin: 10px 0 0 !important;
+  font-weight: 800;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #ffd54d !important; /* tweak if you want a different accent */
 }
 
-.u-section-1 .u-text-26 {
-  margin: 32px 0 60px;
+/* Footnote */
+.u-section-1 .u-text-26 { margin: 16px 0 48px; text-align: center; }
+
+/* ===== Image on top via ::before ===== */
+/* Remove original backgrounds so text isn't over images */
+.u-section-1 .u-image-1,
+.u-section-1 .u-image-2,
+.u-section-1 .u-image-3,
+.u-section-1 .u-image-4,
+.u-section-1 .u-image-5,
+.u-section-1 .u-image-6 {
+  background: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
+/* Draw the photo block */
+.u-section-1 .u-image-1::before,
+.u-section-1 .u-image-2::before,
+.u-section-1 .u-image-3::before,
+.u-section-1 .u-image-4::before,
+.u-section-1 .u-image-5::before,
+.u-section-1 .u-image-6::before {
+  content: "";
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;          /* desktop/tablet */
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 8px 18px rgba(0,0,0,.08);
+}
+
+/* Map images (from your HTML) */
+.u-section-1 .u-image-1::before { background-image: url('images/2115_2.jpg'); }
+.u-section-1 .u-image-2::before { background-image: url('images/61c1dad44e3fe10950300b23.jpg.webp'); }
+.u-section-1 .u-image-3::before { background-image: url('images/acma-cesitleri-sevinc-pastanesi.jpeg'); }
+.u-section-1 .u-image-4::before { background-image: url('images/bayatlamayan-poaaa.webp'); }
+.u-section-1 .u-image-5::before { background-image: url('images/1625929118-simit-tarifi.jpg'); }
+.u-section-1 .u-image-6::before { background-image: url('images/47701.jpg'); }
+
+/* ===== Breakpoints ===== */
 @media (max-width: 1199px) {
-  .u-section-1 .u-list-1 {
-    width: 940px;
-    height: auto;
-  }
-
-  .u-section-1 .u-repeater-1 {
-    grid-gap: 12px;
-    min-height: 748px;
-  }
-
-  .u-section-1 .u-image-1 {
-    background-size: cover, cover;
-  }
-
-  .u-section-1 .u-group-1 {
-    background-size: auto;
-    height: auto;
-  }
-
-  .u-section-1 .u-group-2 {
-    background-size: auto;
-    height: auto;
-  }
-
-  .u-section-1 .u-image-3 {
-    background-size: cover, cover;
-  }
-
-  .u-section-1 .u-group-3 {
-    background-size: auto;
-    height: auto;
-  }
-
-  .u-section-1 .u-image-4 {
-    background-size: cover, cover;
-  }
-
-  .u-section-1 .u-group-4 {
-    background-size: auto;
-    height: auto;
-  }
-
-  .u-section-1 .u-image-5 {
-    background-size: cover, cover;
-  }
-
-  .u-section-1 .u-group-5 {
-    background-size: auto;
-    height: auto;
-  }
-
-  .u-section-1 .u-image-6 {
-    background-size: cover, cover;
-  }
-
-  .u-section-1 .u-group-6 {
-    background-size: auto;
-    height: auto;
-  }
+  .u-section-1 .u-repeater-1 { gap: 12px; }
+  .u-section-1 .u-image-1::before,
+  .u-section-1 .u-image-2::before,
+  .u-section-1 .u-image-3::before,
+  .u-section-1 .u-image-4::before,
+  .u-section-1 .u-image-5::before,
+  .u-section-1 .u-image-6::before { aspect-ratio: 3 / 2; }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-list-1 {
-    width: 720px;
-  }
-
-  .u-section-1 .u-repeater-1 {
-    grid-template-columns: repeat(1, 100%);
-    grid-auto-columns: calc(100% - 0px);
-  }
+  .u-section-1 .u-repeater-1 { grid-template-columns: 1fr; }
+  .u-section-1 .u-list-1 { padding-left: 16px; padding-right: 16px; }
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-text-1 {
-    width: 540px;
-  }
+  .u-section-1 .u-image-1::before,
+  .u-section-1 .u-image-2::before,
+  .u-section-1 .u-image-3::before,
+  .u-section-1 .u-image-4::before,
+  .u-section-1 .u-image-5::before,
+  .u-section-1 .u-image-6::before { aspect-ratio: 1 / 1; } /* square on phones */
 
-  .u-section-1 .u-list-1 {
-    width: 540px;
-  }
-
-  .u-section-1 .u-repeater-1 {
-    grid-auto-columns: 100%;
-  }
-
-  .u-section-1 .u-image-1 {
-    background-position: 73.87% 50%;
-  }
-
-  .u-section-1 .u-container-layout-2 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-1 .u-image-2 {
-    background-position: 88.18% 50%;
-  }
-
-  .u-section-1 .u-container-layout-4 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-1 .u-container-layout-6 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-1 .u-container-layout-8 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-1 .u-container-layout-10 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-1 .u-container-layout-12 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+  .u-section-1 .u-container-layout-2,
+  .u-section-1 .u-container-layout-4,
+  .u-section-1 .u-container-layout-6,
+  .u-section-1 .u-container-layout-8,
+  .u-section-1 .u-container-layout-10,
+  .u-section-1 .u-container-layout-12 { padding: 12px 12px !important; }
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-text-1 {
-    width: 340px;
-  }
-
-  .u-section-1 .u-list-1 {
-    width: 340px;
-  }
+  .u-section-1 .u-text-5,
+  .u-section-1 .u-text-9,
+  .u-section-1 .u-text-13,
+  .u-section-1 .u-text-17,
+  .u-section-1 .u-text-21,
+  .u-section-1 .u-text-25 { font-size: 1.125rem; }
 }
