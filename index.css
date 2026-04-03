@@ -1,6 +1,6 @@
 /* ===== Responsive grid & container ===== */
 .u-section-1 .u-sheet-1 {
-  min-height: 0; /* let content define height */
+  min-height: 0;
 }
 
 .u-section-1 .u-text-1 {
@@ -9,14 +9,12 @@
   text-align: center;
 }
 
-/* Make list fluid with a max width */
 .u-section-1 .u-list-1 {
   width: 100%;
   max-width: 1127px;
   margin: 32px auto 0;
 }
 
-/* Repeater: 2 cols on desktop, 1 on tablet/phone */
 .u-section-1 .u-repeater-1 {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -34,7 +32,7 @@
   border-radius: 10px;
 }
 
-/* Kill the old dark overlays / video-cover effect and force normal flow */
+/* FIX: added missing commas between group-10, group-11, group-12 */
 .u-section-1 .u-group-1,
 .u-section-1 .u-group-2,
 .u-section-1 .u-group-3,
@@ -44,18 +42,16 @@
 .u-section-1 .u-group-7,
 .u-section-1 .u-group-8,
 .u-section-1 .u-group-9,
-.u-section-1 .u-group-10
-.u-section-1 .u-group-11
-.u-section-1 .u-group-12
-{
-  background: #000 !important;   /* solid black */
-  opacity: 1 !important;         /* remove transparency */
-  color: #fff !important;        /* make sure text stays visible */
-  border-radius: 0 0 10px 10px;  /* optional: rounded bottom corners */
+.u-section-1 .u-group-10,
+.u-section-1 .u-group-11,
+.u-section-1 .u-group-12 {
+  background: #000 !important;
+  opacity: 1 !important;
+  color: #fff !important;
+  border-radius: 0 0 10px 10px;
   padding: 16px;
 }
 
-/* Tight, consistent padding for captions */
 .u-section-1 .u-container-layout-2,
 .u-section-1 .u-container-layout-4,
 .u-section-1 .u-container-layout-6,
@@ -68,7 +64,6 @@
   padding: 14px 16px !important;
 }
 
-/* Headings (titles) */
 .u-section-1 .u-text-2,
 .u-section-1 .u-text-4,
 .u-section-1 .u-text-6,
@@ -85,7 +80,6 @@
   text-align: center;
 }
 
-/* Prices */
 .u-section-1 .u-text-3,
 .u-section-1 .u-text-5,
 .u-section-1 .u-text-7,
@@ -97,18 +91,17 @@
 .u-section-1 .u-text-19 {
   margin: 6px 0 0 !important;
   font-weight: 700;
-  font-size: 1.25rem; /* readable on mobile; scales via media queries if needed */
+  font-size: 1.25rem;
   text-align: center;
 }
 
-/* Footnote */
 .u-section-1 .u-text-20 {
   margin: 16px 0 48px;
   text-align: center;
 }
 
-/* ===== Image on top using ::before ===== */
-/* Remove original background images from the card wrapper */
+/* ===== Image cards ===== */
+/* FIX: added missing commas between image-10, image-11, image-12 */
 .u-section-1 .u-image-1,
 .u-section-1 .u-image-2,
 .u-section-1 .u-image-3,
@@ -118,14 +111,14 @@
 .u-section-1 .u-image-7,
 .u-section-1 .u-image-8,
 .u-section-1 .u-image-9,
-.u-section-1 .u-group-10 
-.u-section-1 .u-group-11 
-.u-section-1 .u-group-12 {
+.u-section-1 .u-image-10,
+.u-section-1 .u-image-11,
+.u-section-1 .u-image-12 {
   background: none !important;
   padding: 0 !important;
 }
 
-/* Draw the photo block above content */
+/* FIX: added missing commas between ::before selectors for 10, 11, 12 */
 .u-section-1 .u-image-1::before,
 .u-section-1 .u-image-2::before,
 .u-section-1 .u-image-3::before,
@@ -135,13 +128,13 @@
 .u-section-1 .u-image-7::before,
 .u-section-1 .u-image-8::before,
 .u-section-1 .u-image-9::before,
-   .u-section-1 .u-image-10::before 
-   .u-section-1 .u-image-11::before 
-   .u-section-1 .u-image-12::before {
+.u-section-1 .u-image-10::before,
+.u-section-1 .u-image-11::before,
+.u-section-1 .u-image-12::before {
   content: "";
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;         /* desktop/tablet default height */
+  aspect-ratio: 4 / 3;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -149,27 +142,23 @@
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
 }
 
-/* Map each card to its image file (copied from your CSS) */
-.u-section-1 .u-image-1::before { background-image: url('images/2102_1.jpg'); }
-.u-section-1 .u-image-2::before { background-image: url('images/2103_1.jpg'); }
-.u-section-1 .u-image-3::before { background-image: url('images/2104_1.jpg'); }
-.u-section-1 .u-image-4::before { background-image: url('images/49909.jpg'); }
-.u-section-1 .u-image-5::before { background-image: url('images/147861_1.jpg'); }
-.u-section-1 .u-image-6::before { background-image: url('images/25476_1.jpg'); }
-.u-section-1 .u-image-7::before { background-image: url('images/147985_1.jpg'); }
-.u-section-1 .u-image-8::before { background-image: url('images/14120.jpg'); }
-.u-section-1 .u-image-9::before { background-image: url('images/2110_1.jpg'); }
+.u-section-1 .u-image-1::before  { background-image: url('images/2102_1.jpg'); }
+.u-section-1 .u-image-2::before  { background-image: url('images/2103_1.jpg'); }
+.u-section-1 .u-image-3::before  { background-image: url('images/2104_1.jpg'); }
+.u-section-1 .u-image-4::before  { background-image: url('images/49909.jpg'); }
+.u-section-1 .u-image-5::before  { background-image: url('images/147861_1.jpg'); }
+.u-section-1 .u-image-6::before  { background-image: url('images/25476_1.jpg'); }
+.u-section-1 .u-image-7::before  { background-image: url('images/147985_1.jpg'); }
+.u-section-1 .u-image-8::before  { background-image: url('images/14120.jpg'); }
+.u-section-1 .u-image-9::before  { background-image: url('images/2110_1.jpg'); }
 .u-section-1 .u-image-10::before { background-image: url('images/mor-baklava.png'); }
 .u-section-1 .u-image-11::before { background-image: url('images/cikolata-baklava.png'); }
 .u-section-1 .u-image-12::before { background-image: url('images/fistikli-durum.png'); }
 
 /* ===== Breakpoints ===== */
 
-/* ≤1199px: keep 2 columns, let heights shrink a bit */
 @media (max-width: 1199px) {
-  .u-section-1 .u-repeater-1 {
-    gap: 12px;
-  }
+  .u-section-1 .u-repeater-1 { gap: 12px; }
   .u-section-1 .u-image-1::before,
   .u-section-1 .u-image-2::before,
   .u-section-1 .u-image-3::before,
@@ -179,29 +168,18 @@
   .u-section-1 .u-image-7::before,
   .u-section-1 .u-image-8::before,
   .u-section-1 .u-image-9::before,
-   .u-section-1 .u-image-10::before
-   .u-section-1 .u-image-11::before
-   .u-section-1 .u-image-12::before{
-    aspect-ratio: 3 / 2;
-  }
+  .u-section-1 .u-image-10::before,
+  .u-section-1 .u-image-11::before,
+  .u-section-1 .u-image-12::before { aspect-ratio: 3 / 2; }
 }
 
-/* ≤991px: switch to 1 column */
 @media (max-width: 991px) {
-  .u-section-1 .u-repeater-1 {
-    grid-template-columns: 1fr;
-  }
-  .u-section-1 .u-list-1 {
-    padding: 0 16px;
-  }
+  .u-section-1 .u-repeater-1 { grid-template-columns: 1fr; }
+  .u-section-1 .u-list-1 { padding: 0 16px; }
 }
 
-/* ≤767px: comfy touch targets and square-ish image for consistency */
 @media (max-width: 767px) {
-  .u-section-1 .u-text-1 {
-    margin-top: 16px;
-  }
-
+  .u-section-1 .u-text-1 { margin-top: 16px; }
   .u-section-1 .u-image-1::before,
   .u-section-1 .u-image-2::before,
   .u-section-1 .u-image-3::before,
@@ -211,11 +189,9 @@
   .u-section-1 .u-image-7::before,
   .u-section-1 .u-image-8::before,
   .u-section-1 .u-image-9::before,
-   .u-section-1 .u-image-10::before 
-   .u-section-1 .u-image-11::before 
-   .u-section-1 .u-image-12::before {
-    aspect-ratio: 1 / 1;  /* square on phones */
-  }
+  .u-section-1 .u-image-10::before,
+  .u-section-1 .u-image-11::before,
+  .u-section-1 .u-image-12::before { aspect-ratio: 1 / 1; }
 
   .u-section-1 .u-container-layout-2,
   .u-section-1 .u-container-layout-4,
@@ -225,16 +201,11 @@
   .u-section-1 .u-container-layout-12,
   .u-section-1 .u-container-layout-14,
   .u-section-1 .u-container-layout-16,
-  .u-section-1 .u-container-layout-18 {
-    padding: 12px 12px !important;
-  }
+  .u-section-1 .u-container-layout-18 { padding: 12px 12px !important; }
 }
 
-/* ≤575px: tighter edges */
 @media (max-width: 575px) {
-  .u-section-1 .u-list-1 {
-    padding: 0 10px;
-  }
+  .u-section-1 .u-list-1 { padding: 0 10px; }
   .u-section-1 .u-text-3,
   .u-section-1 .u-text-5,
   .u-section-1 .u-text-7,
@@ -243,7 +214,5 @@
   .u-section-1 .u-text-13,
   .u-section-1 .u-text-15,
   .u-section-1 .u-text-17,
-  .u-section-1 .u-text-19 {
-    font-size: 1.125rem;
-  }
+  .u-section-1 .u-text-19 { font-size: 1.125rem; }
 }
